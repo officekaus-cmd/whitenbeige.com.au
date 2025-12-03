@@ -1,521 +1,80 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2566">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
-<body>
-<p class="p1">&lt;!doctype html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1"><span class="Apple-converted-space"> </span>&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;White &amp;amp; Beige Coffee&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="/_sdk/element_sdk.js"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>box-sizing: border-box;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>font-family: 'Poppins', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>html,</p>
-<p class="p1"><span class="Apple-converted-space">      </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>height: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>:focus-visible {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>outline: 3px solid #C63A2B;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>outline-offset: 2px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>/* Soft shadows for luxury feel */</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.soft-shadow {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>box-shadow: 0 4px 20px rgba(74, 58, 10, 0.08);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>/* Smooth transitions */</p>
-<p class="p1"><span class="Apple-converted-space">      </span>* {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>transition: all 0.3s ease;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;@view-transition { navigation: auto; }&lt;/style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="/_sdk/data_sdk.js" type="text/javascript"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space"> </span>&lt;/head&gt;</p>
-<p class="p1"><span class="Apple-converted-space"> </span>&lt;body class="w-full h-full"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="app-root" class="w-full h-full flex flex-col"&gt;&lt;!-- Header --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;header class="w-full" aria-label="Main header"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="max-w-6xl mx-auto px-8 py-12 text-center"&gt;&lt;!-- Logo - Botanical Coffee Plant Illustration --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;div class="flex justify-center mb-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;svg viewbox="0 0 320 320" class="w-48 h-48" aria-label="White &amp;amp; Beige Coffee Logo"&gt;&lt;!-- Top Arc Text: WHITE &amp; BEIGE --&gt; &lt;path id="topArc" d="M 70,160 A 90,90 0 0,1 250,160" fill="none" /&gt; &lt;text font-family="Poppins, sans-serif" font-size="20" font-weight="700" fill="#4A3A0A" letter-spacing="3"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;textpath href="#topArc" startoffset="50%" text-anchor="middle"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>WHITE &amp;amp; BEIGE</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/textpath&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/text&gt; &lt;!-- Bottom Arc Text: PREMIUM ROASTED COFFEE --&gt; &lt;path id="bottomArc" d="M 70,160 A 90,90 0 0,0 250,160" fill="none" /&gt; &lt;text font-family="Poppins, sans-serif" font-size="11" font-weight="600" fill="#4A3A0A" letter-spacing="2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;textpath href="#bottomArc" startoffset="50%" text-anchor="middle"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>PREMIUM ROASTED COFFEE</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/textpath&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/text&gt; &lt;!-- Side Text: ESTD --&gt; &lt;text x="45" y="165" font-family="Poppins, sans-serif" font-size="13" font-weight="600" fill="#4A3A0A" text-anchor="middle"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>ESTD</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/text&gt; &lt;!-- Side Text: 2024 --&gt; &lt;text x="275" y="165" font-family="Poppins, sans-serif" font-size="13" font-weight="600" fill="#4A3A0A" text-anchor="middle"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>2024</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/text&gt; &lt;!-- Central Coffee Plant Illustration - Hand-drawn botanical style --&gt; &lt;g transform="translate(160, 160)"&gt;&lt;!-- Main stem --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;line x1="0" y1="-65" x2="0" y2="65" stroke="#4A3A0A" stroke-width="3" stroke-linecap="round" /&gt; &lt;!-- Botanical Coffee Leaves with detailed veins (LEFT SIDE) --&gt; &lt;!-- Top left leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(-5, -50) rotate(-35)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q -28,-5 -32,0 Q -33,8 -32,16 Q -28,20 0,18 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="18" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,4 Q -10,3 -15,4" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,8 Q -12,7 -18,8" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,12 Q -10,11 -15,12" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Mid-upper left leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(-5, -20) rotate(-40)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q -30,-6 -35,0 Q -36,10 -35,20 Q -30,25 0,22 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="22" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,5 Q -12,4 -17,5" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,10 Q -14,9 -20,10" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,15 Q -12,14 -17,15" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Mid left leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(-5, 10) rotate(-38)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q -28,-5 -32,0 Q -33,8 -32,16 Q -28,20 0,18 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="18" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,4 Q -10,3 -15,4" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,8 Q -12,7 -18,8" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,12 Q -10,11 -15,12" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Bottom left leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(-5, 40) rotate(-35)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q -26,-4 -30,0 Q -31,7 -30,14 Q -26,18 0,16 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="16" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,4 Q -9,3 -14,4" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,8 Q -11,7 -16,8" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,11 Q -9,10 -14,11" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Botanical Coffee Leaves with detailed veins (RIGHT SIDE) --&gt; &lt;!-- Top right leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(5, -55) rotate(35)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q 28,-5 32,0 Q 33,8 32,16 Q 28,20 0,18 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="18" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,4 Q 10,3 15,4" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,8 Q 12,7 18,8" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,12 Q 10,11 15,12" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Mid-upper right leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(5, -25) rotate(40)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q 30,-6 35,0 Q 36,10 35,20 Q 30,25 0,22 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="22" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,5 Q 12,4 17,5" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,10 Q 14,9 20,10" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,15 Q 12,14 17,15" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Mid right leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(5, 5) rotate(38)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q 28,-5 32,0 Q 33,8 32,16 Q 28,20 0,18 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="18" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,4 Q 10,3 15,4" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,8 Q 12,7 18,8" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,12 Q 10,11 15,12" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Bottom right leaf --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(5, 35) rotate(35)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,0 Q 26,-4 30,0 Q 31,7 30,14 Q 26,18 0,16 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;line x1="0" y1="0" x2="0" y2="16" stroke="#2E5A2A" stroke-width="1.2" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,4 Q 9,3 14,4" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,8 Q 11,7 16,8" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;path d="M 0,11 Q 9,10 14,11" stroke="#2E5A2A" stroke-width="0.6" fill="none" opacity="0.7" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Coffee Cherries (Red - Ripe) - Clustered naturally --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="-10" cy="-30" r="5.5" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="-6" cy="-24" r="5.5" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="-12" cy="-18" r="5.5" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="8" cy="-28" r="5.5" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="12" cy="-22" r="5.5" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="10" cy="-15" r="5.5" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt; &lt;!-- White Coffee Blossoms (Small clusters) --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(-8, -60)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="0" cy="0" r="3" fill="#FDFBF7" stroke="#E8DCC8" stroke-width="0.5" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="-1" cy="0" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="1" cy="0" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="0" cy="-1" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="0" cy="1" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;g transform="translate(10, -62)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="0" cy="0" r="3" fill="#FDFBF7" stroke="#E8DCC8" stroke-width="0.5" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="-1" cy="0" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="1" cy="0" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="0" cy="-1" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;circle cx="0" cy="1" r="0.8" fill="#F4E5C0" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/g&gt; &lt;!-- Highlights on cherries for depth --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="-9" cy="-31" r="1.8" fill="#E85A4A" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="-5" cy="-25" r="1.8" fill="#E85A4A" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="9" cy="-29" r="1.8" fill="#E85A4A" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;circle cx="11" cy="-23" r="1.8" fill="#E85A4A" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/g&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;p id="tagline" class="text-sm tracking-wide"&gt;Premium small-batch roasted coffee&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;/header&gt;&lt;!-- Main Content --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;main id="main-content" class="flex-1 w-full"&gt;&lt;!-- Hero Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section aria-labelledby="hero-title" class="w-full py-16"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;div class="max-w-5xl mx-auto px-8"&gt;&lt;!-- Subtle botanical accent --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="flex justify-center mb-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;svg viewbox="0 0 100 40" class="w-24 h-10 opacity-30" aria-hidden="true"&gt;&lt;path d="M 10,20 Q 30,10 50,20 Q 70,30 90,20" stroke="#3F6F3A" stroke-width="1.5" fill="none" /&gt; &lt;circle cx="30" cy="15" r="2" fill="#3F6F3A" /&gt; &lt;circle cx="50" cy="20" r="2" fill="#3F6F3A" /&gt; &lt;circle cx="70" cy="25" r="2" fill="#3F6F3A" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="text-center max-w-3xl mx-auto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;h2 id="hero-title" class="text-5xl font-light mb-4 tracking-wide"&gt;Freshly roasted to perfection&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;p id="hero-subtitle" class="text-xl font-light opacity-80"&gt;High grade A beans • Single origins &amp;amp; premium blends&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;&lt;!-- Products Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="menu" aria-labelledby="menu-title" class="w-full py-16"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;div class="max-w-5xl mx-auto px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 id="menu-title" class="text-3xl font-light text-center mb-12 tracking-wide"&gt;Our roasted beans&lt;/h2&gt;&lt;!-- Product cards with soft shadows --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto mb-12"&gt;&lt;!-- Single Origin Card --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;div class="soft-shadow rounded-3xl p-8 text-center"&gt;&lt;!-- Botanical leaf accent --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex justify-center mb-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;svg viewbox="0 0 60 80" class="w-16 h-20" aria-hidden="true"&gt;&lt;path d="M 30,10 Q 15,15 12,30 Q 15,45 30,50 Z" fill="#3F6F3A" stroke="#2E5A2A" stroke-width="0.8" opacity="0.7" /&gt; &lt;line x1="30" y1="10" x2="30" y2="50" stroke="#2E5A2A" stroke-width="1" /&gt; &lt;path d="M 30,20 Q 20,22 18,25" stroke="#2E5A2A" stroke-width="0.5" fill="none" opacity="0.6" /&gt; &lt;path d="M 30,30 Q 18,32 15,35" stroke="#2E5A2A" stroke-width="0.5" fill="none" opacity="0.6" /&gt; &lt;path d="M 30,40 Q 20,42 18,45" stroke="#2E5A2A" stroke-width="0.5" fill="none" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3 class="font-medium text-2xl mb-3 tracking-wide"&gt;Single Origins&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="text-sm opacity-70 mb-4 font-light"&gt;Pure, traceable, exceptional&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex justify-between items-baseline pt-4 border-t"&gt;&lt;span id="item-one-name" class="font-light"&gt;Single Origin - 200g&lt;/span&gt; &lt;span id="item-one-price" class="font-medium"&gt;$30&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/div&gt;&lt;!-- Premium Blend Card --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;div class="soft-shadow rounded-3xl p-8 text-center"&gt;&lt;!-- Coffee cherries accent --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex justify-center mb-4 gap-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;svg viewbox="0 0 20 20" class="w-8 h-8" aria-hidden="true"&gt;&lt;circle cx="10" cy="10" r="8" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt; &lt;circle cx="8" cy="8" r="2" fill="#E85A4A" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;svg viewbox="0 0 20 20" class="w-8 h-8" aria-hidden="true"&gt;&lt;circle cx="10" cy="10" r="8" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt; &lt;circle cx="8" cy="8" r="2" fill="#E85A4A" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;svg viewbox="0 0 20 20" class="w-8 h-8" aria-hidden="true"&gt;&lt;circle cx="10" cy="10" r="8" fill="#C63A2B" stroke="#A02F22" stroke-width="0.5" /&gt; &lt;circle cx="8" cy="8" r="2" fill="#E85A4A" opacity="0.6" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3 class="font-medium text-2xl mb-3 tracking-wide"&gt;Premium Blends&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="text-sm opacity-70 mb-4 font-light"&gt;Expertly crafted balance&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex justify-between items-baseline pt-4 border-t"&gt;&lt;span id="item-two-name" class="font-light"&gt;Premium Blend - 200g&lt;/span&gt; &lt;span id="item-two-price" class="font-medium"&gt;$24&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;&lt;!-- About Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="about" aria-labelledby="about-title" class="w-full py-16"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;div class="max-w-4xl mx-auto px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 id="about-title" class="text-3xl font-light text-center mb-10 tracking-wide"&gt;About Us&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="space-y-8 text-center max-w-3xl mx-auto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;p class="text-lg font-light leading-relaxed opacity-90"&gt;At White &amp;amp; Beige, coffee is more than a drink—it's an experience, a moment of calm, and a celebration of craftsmanship.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;div class="soft-shadow rounded-3xl p-10 text-left space-y-5 font-light leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Our journey began with a simple idea: to create premium, small-batch coffee that brings the richness of global flavours into your home, without compromise.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Inspired by clean, minimalist aesthetics and the warmth of natural tones, White &amp;amp; Beige reflects our belief that great coffee should be beautiful in every way—from the beans we roast to the packaging you hold.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;We carefully select each origin based on quality, sustainability, and traceability. Our roasting process is hands-on and deeply intentional, allowing the natural flavours of every coffee—whether floral Ethiopian profiles or rich, chocolatey Brazilian lots—to shine through.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;div class="py-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3 class="text-xl font-medium mb-6 tracking-wide"&gt;What sets us apart?&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul class="space-y-3 text-left max-w-2xl mx-auto font-light"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;svg viewbox="0 0 20 20" class="w-5 h-5" fill="#3F6F3A"&gt;&lt;circle cx="10" cy="10" r="3" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;/svg&gt;&lt;/span&gt; &lt;span&gt;Small batches—always roasting less than a KG, no bulk roasting&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;svg viewbox="0 0 20 20" class="w-5 h-5" fill="#3F6F3A"&gt;&lt;circle cx="10" cy="10" r="3" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;/svg&gt;&lt;/span&gt; &lt;span&gt;Ethically sourced premium beans&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;svg viewbox="0 0 20 20" class="w-5 h-5" fill="#3F6F3A"&gt;&lt;circle cx="10" cy="10" r="3" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;/svg&gt;&lt;/span&gt; &lt;span&gt;Customised roasts for your preferred brew method and palate&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;svg viewbox="0 0 20 20" class="w-5 h-5" fill="#3F6F3A"&gt;&lt;circle cx="10" cy="10" r="3" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;/svg&gt;&lt;/span&gt; &lt;span&gt;A flavour-first approach guided by craftsmanship, not automation&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">         </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;svg viewbox="0 0 20 20" class="w-5 h-5" fill="#3F6F3A"&gt;&lt;circle cx="10" cy="10" r="3" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">           </span>&lt;/svg&gt;&lt;/span&gt; &lt;span&gt;A commitment to consistency, quality, and honesty&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;p class="text-lg font-light leading-relaxed italic opacity-90 pt-4"&gt;Whether you're a home brewer, a café enthusiast, or someone exploring the world of specialty coffee, our mission is simple: to deliver a refined coffee experience that feels as good as it tastes.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;p class="text-2xl font-light pt-6 tracking-wide"&gt;Welcome to White &amp;amp; Beige—where elegance meets flavour, and every cup tells a story.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;&lt;!-- Contact Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="contact" aria-labelledby="contact-title" class="w-full py-16"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;div class="max-w-4xl mx-auto px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="max-w-lg mx-auto text-center soft-shadow rounded-3xl p-10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;h2 id="contact-title" class="text-2xl font-light mb-4 tracking-wide"&gt;Contact us&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;p id="contact-text" class="mb-6 font-light opacity-80"&gt;Have questions about our beans? We'd love to hear from you.&lt;/p&gt;&lt;a href="mailto:info@whitenbeige.com.au" id="contact-email" class="inline-block px-8 py-3 rounded-full font-medium tracking-wide" target="_blank" rel="noopener noreferrer"&gt; info@whitenbeige.com.au &lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;/main&gt;&lt;!-- Footer --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;footer class="w-full" aria-label="Footer"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="max-w-6xl mx-auto px-8 py-6 text-center"&gt;&lt;!-- Thin decorative line --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;div class="w-24 h-px mx-auto mb-4 opacity-30"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;p id="footer-text" class="text-xs font-light tracking-wider opacity-70"&gt;© 2024 White &amp;amp; Beige Coffee&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;/footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>(function () {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const defaultConfig = {</p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Colors - botanical luxury palette matching label</p>
-<p class="p1"><span class="Apple-converted-space">          </span>background_color: "#FDFBF7",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>surface_color: "#FAF8F2",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>text_color: "#4A3A0A",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>accent_color: "#C63A2B",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>border_color: "#E8DCC8",</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Typography - Poppins for clean, rounded sans-serif</p>
-<p class="p1"><span class="Apple-converted-space">          </span>font_family: "Poppins",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>font_size: 16,</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Content</p>
-<p class="p1"><span class="Apple-converted-space">          </span>tagline: "Premium small-batch roasted coffee",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>hero_title: "Freshly roasted to perfection",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>hero_subtitle: "High grade A beans • Single origins &amp; premium blends",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>menu_title: "Our roasted beans",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>item_one_name: "Single Origin - 200g",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>item_one_price: "$15",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>item_two_name: "Premium Blend - 200g",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>item_two_price: "$15",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>contact_title: "Contact us",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>contact_text: "Have questions about our beans? We'd love to hear from you.",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>contact_email_text: "info@whitenbeige.com.au",</p>
-<p class="p1"><span class="Apple-converted-space">          </span>footer_text: "© 2024 White &amp; Beige Coffee"</p>
-<p class="p1"><span class="Apple-converted-space">        </span>};</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>const root = document.getElementById("app-root");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const mainContent = document.getElementById("main-content");</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>async function onConfigChange(config) {</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const cfg = Object.assign({}, defaultConfig, config || {});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const backgroundColor = cfg.background_color || defaultConfig.background_color;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const surfaceColor = cfg.surface_color || defaultConfig.surface_color;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const textColor = cfg.text_color || defaultConfig.text_color;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const accentColor = cfg.accent_color || defaultConfig.accent_color;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const borderColor = cfg.border_color || defaultConfig.border_color;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const baseFontFamily = cfg.font_family || defaultConfig.font_family;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const baseFontSize = Number(cfg.font_size || defaultConfig.font_size);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const fontStack = baseFontFamily ? baseFontFamily + ", sans-serif" : "Poppins, sans-serif";</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Apply colors</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (root) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>root.style.backgroundColor = backgroundColor;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>root.style.color = textColor;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (mainContent) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>mainContent.style.color = textColor;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Surface color for cards</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const cards = document.querySelectorAll(".soft-shadow");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>cards.forEach(function (card) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>card.style.backgroundColor = surfaceColor;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Contact email button</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const contactEmail = document.getElementById("contact-email");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (contactEmail) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactEmail.style.backgroundColor = accentColor;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactEmail.style.color = backgroundColor;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Border colors</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const borders = document.querySelectorAll(".border-t");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>borders.forEach(function (el) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>el.style.borderColor = borderColor;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Footer decorative line</p>
-<p class="p1"><span class="Apple-converted-space">          </span>const footerLine = document.querySelector("footer .h-px");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (footerLine) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>footerLine.style.backgroundColor = borderColor;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>// Typography</p>
-<p class="p1"><span class="Apple-converted-space">          </span>document.body.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>document.body.style.fontSize = baseFontSize + "px";</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const taglineEl = document.getElementById("tagline");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (taglineEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>taglineEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>taglineEl.style.fontSize = baseFontSize * 0.875 + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>taglineEl.textContent = cfg.tagline || defaultConfig.tagline;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const heroTitleEl = document.getElementById("hero-title");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (heroTitleEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>heroTitleEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>heroTitleEl.style.fontSize = baseFontSize * 3.125 + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>heroTitleEl.textContent = cfg.hero_title || defaultConfig.hero_title;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const heroSubtitleEl = document.getElementById("hero-subtitle");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (heroSubtitleEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>heroSubtitleEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>heroSubtitleEl.style.fontSize = baseFontSize * 1.25 + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>heroSubtitleEl.textContent = cfg.hero_subtitle || defaultConfig.hero_subtitle;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const menuTitleEl = document.getElementById("menu-title");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (menuTitleEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>menuTitleEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>menuTitleEl.style.fontSize = baseFontSize * 1.875 + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>menuTitleEl.textContent = cfg.menu_title || defaultConfig.menu_title;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const itemOneNameEl = document.getElementById("item-one-name");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (itemOneNameEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemOneNameEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemOneNameEl.style.fontSize = baseFontSize + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemOneNameEl.textContent = cfg.item_one_name || defaultConfig.item_one_name;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const itemOnePriceEl = document.getElementById("item-one-price");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (itemOnePriceEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemOnePriceEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemOnePriceEl.style.fontSize = baseFontSize + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemOnePriceEl.textContent = cfg.item_one_price || defaultConfig.item_one_price;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const itemTwoNameEl = document.getElementById("item-two-name");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (itemTwoNameEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemTwoNameEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemTwoNameEl.style.fontSize = baseFontSize + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemTwoNameEl.textContent = cfg.item_two_name || defaultConfig.item_two_name;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const itemTwoPriceEl = document.getElementById("item-two-price");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (itemTwoPriceEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemTwoPriceEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemTwoPriceEl.style.fontSize = baseFontSize + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>itemTwoPriceEl.textContent = cfg.item_two_price || defaultConfig.item_two_price;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const contactTitleEl = document.getElementById("contact-title");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (contactTitleEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactTitleEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactTitleEl.style.fontSize = baseFontSize * 1.5 + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactTitleEl.textContent = cfg.contact_title || defaultConfig.contact_title;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const contactTextEl = document.getElementById("contact-text");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (contactTextEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactTextEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactTextEl.style.fontSize = baseFontSize + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactTextEl.textContent = cfg.contact_text || defaultConfig.contact_text;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const contactEmailEl = document.getElementById("contact-email");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (contactEmailEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactEmailEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactEmailEl.style.fontSize = baseFontSize + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>contactEmailEl.textContent = cfg.contact_email_text || defaultConfig.contact_email_text;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>const footerTextEl = document.getElementById("footer-text");</p>
-<p class="p1"><span class="Apple-converted-space">          </span>if (footerTextEl) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>footerTextEl.style.fontFamily = fontStack;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>footerTextEl.style.fontSize = baseFontSize * 0.75 + "px";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>footerTextEl.textContent = cfg.footer_text || defaultConfig.footer_text;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>if (window.elementSdk &amp;&amp; typeof window.elementSdk.init === "function") {</p>
-<p class="p1"><span class="Apple-converted-space">          </span>window.elementSdk.init({</p>
-<p class="p1"><span class="Apple-converted-space">            </span>defaultConfig: defaultConfig,</p>
-<p class="p1"><span class="Apple-converted-space">            </span>onConfigChange: onConfigChange,</p>
-<p class="p1"><span class="Apple-converted-space">            </span>mapToCapabilities: function (config) {</p>
-<p class="p1"><span class="Apple-converted-space">              </span>const cfg = config || defaultConfig;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">              </span>return {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>recolorables: [</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>{</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>get: function () {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>return cfg.background_color || defaultConfig.background_color;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>set: function (value) {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>window.elementSdk.setConfig({ background_color: value });</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>{</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>get: function () {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>return cfg.surface_color || defaultConfig.surface_color;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>set: function (value) {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>window.elementSdk.setConfig({ surface_color: value });</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>{</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>get: function () {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>return cfg.text_color || defaultConfig.text_color;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>set: function (value) {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>window.elementSdk.setConfig({ text_color: value });</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>{</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>get: function () {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>return cfg.accent_color || defaultConfig.accent_color;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>set: function (value) {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>window.elementSdk.setConfig({ accent_color: value });</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>{</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>get: function () {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>return cfg.border_color || defaultConfig.border_color;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>set: function (value) {</p>
-<p class="p1"><span class="Apple-converted-space">                      </span>window.elementSdk.setConfig({ border_color: value });</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>borderables: [],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>fontEditable: {</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>get: function () {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>return cfg.font_family || defaultConfig.font_family;</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>set: function (value) {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>window.elementSdk.setConfig({ font_family: value });</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                </span>fontSizeable: {</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>get: function () {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>return Number(cfg.font_size || defaultConfig.font_size);</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>set: function (value) {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>window.elementSdk.setConfig({ font_size: Number(value) || 16 });</p>
-<p class="p1"><span class="Apple-converted-space">                  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">              </span>};</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>mapToEditPanelValues: function (config) {</p>
-<p class="p1"><span class="Apple-converted-space">              </span>const cfg = config || defaultConfig;</p>
-<p class="p1"><span class="Apple-converted-space">              </span>return new Map([</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["tagline", cfg.tagline || defaultConfig.tagline],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["hero_title", cfg.hero_title || defaultConfig.hero_title],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["hero_subtitle", cfg.hero_subtitle || defaultConfig.hero_subtitle],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["menu_title", cfg.menu_title || defaultConfig.menu_title],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["item_one_name", cfg.item_one_name || defaultConfig.item_one_name],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["item_one_price", cfg.item_one_price || defaultConfig.item_one_price],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["item_two_name", cfg.item_two_name || defaultConfig.item_two_name],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["item_two_price", cfg.item_two_price || defaultConfig.item_two_price],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["contact_title", cfg.contact_title || defaultConfig.contact_title],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["contact_text", cfg.contact_text || defaultConfig.contact_text],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["contact_email_text", cfg.contact_email_text || defaultConfig.contact_email_text],</p>
-<p class="p1"><span class="Apple-converted-space">                </span>["footer_text", cfg.footer_text || defaultConfig.footer_text]</p>
-<p class="p1"><span class="Apple-converted-space">              </span>]);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">          </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">          </span>onConfigChange(window.elementSdk.config);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">          </span>onConfigChange(defaultConfig);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>})();</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space"> </span>&lt;script&gt;(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9a58dc29130f29b9',t:'MTc2NDMyMjM2Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&amp;&amp;(document.onreadystatechange=e,c())}}}})();&lt;/script&gt;&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
-</html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White n Beige Coffee - Premium Specialty Coffee Roasters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FDFBF7;
+            color: #4A3A0A;
+            line-height: 1.6;
+        }
+
+        header {
+            width: 100%;
+            padding: 3rem 2rem;
+            text-align: center;
+            background-color: #FDFBF7;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .logo-svg {
+            width: 200px;
+            height: auto;
+            max-width: 100%;
+        }
+
+        .tagline {
+            font-size: 0.95rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #A89968 0%, #D4C4B0 100%);
+            color: #FDFBF7;
+            padding: 4rem 2rem;
+            text-align: center;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+     
